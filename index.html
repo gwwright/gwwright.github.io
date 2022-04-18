@@ -33,9 +33,33 @@
 		border: 1px #F1F799;
 	}
 
-	img.medium {
+	.imgmedium {
 		width: 250;
 		height: 250;
+	}
+
+	.imgcenter {
+		display: block;
+		margin-left: auto;
+		margin-right:  auto;
+		width: 50%;
+	}
+
+	.img-float-left {
+		float: left;
+	}
+
+	.img-float-right {
+		float: right;
+	}
+
+	//tables
+	tr:nth-child(even) {
+		background-color: EAD8F2;
+	}
+
+	table, th, td {
+		border:  1px solid;
 	}
 
 	table.border-all-cells {
@@ -52,12 +76,11 @@
 </style>
 <body>
 
-<!-- 
+
 <section>
-	<img src="https://scholasticahq.com/images/about/staff/gwright.png" class="medium" alt="A picture of Garrett" title="Garrett Wright">
+	<img src="https://scholasticahq.com/images/about/staff/gwright.png" class="imgmedium" alt="A picture of Garrett" title="Garrett Wright">
 	<h1 class="text-center">Garrett Wright</h1>
 </section> 
--->
 
 <section>
 	<h1 class="text-center">My Neighborhood</h1>
@@ -71,11 +94,11 @@
 	<ul>
 		<li>
 			<p><a href="https://columbusmuseum.com/welcome.html">The Columbus Museum and Olmsted Gardens</a></p>
-			<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/The_Columbus_Museum_in_Columbus%2C_Georgia.jpg" title="The Columbus Museum and Olmsted Gardens">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/The_Columbus_Museum_in_Columbus%2C_Georgia.jpg" class="image-float-left" title="The Columbus Museum and Olmsted Gardens">
 		</li>
 		<li>
 			<p><a href="https://www.traillink.com/trail/chattahoochee-riverwalk/">Chattahoochee Riverwalk Trail</a></p>
-			<img src="https://www.georgiatrust.org/wp-content/uploads/Columbus-GA-RiverWalk.jpg" title="Chattahoochee Riverwalk Trail">
+			<img src="https://www.georgiatrust.org/wp-content/uploads/Columbus-GA-RiverWalk.jpg" class="image-float-right" title="Chattahoochee Riverwalk Trail">
 		</li>
 		<li>
 			<p><a href="https://www.smokebourbonandbbq.com/">Smoke Bourbon & BBQ</a></p>

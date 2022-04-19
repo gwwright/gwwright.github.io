@@ -10,6 +10,8 @@
 
 	h1.text-center{
 		text-align: center;
+		border: 2px solid;
+		border-radius: 25px;
 	}
 
 
@@ -82,6 +84,11 @@
 		white-space:  wrap;
 	}
 
+	span {
+		position: relative;
+		left:  -12px;
+	}
+
 	.center {
         margin-left: auto;
         margin-right: auto;
@@ -94,6 +101,18 @@
 	body {
 		background-color: #F1F799;
 	}
+
+	ul.no-bullets {
+        list-style-type: none; /* Remove bullets */
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margins */
+    }
+
+    hr {
+    	width: 25%;
+    	align: center;
+    	border-color: #2E4BE1;
+    }
 </style>
 <body>
 
@@ -101,26 +120,27 @@
 <section>
 	<img src="https://scholasticahq.com/images/about/staff/gwright.png" alt="A picture of Garrett" title="Garrett Wright" class="imgmedium" >
 	<h1 class="text-center">Garrett Wright</h1>
-	<a href="https://midtowncolumbusga.org/wp-content/uploads/2019/08/MidTown_Map_10-17.jpg" target="_blank"><img src="https://midtowncolumbusga.org/wp-content/uploads/2019/08/MidTown_Map_10-17.jpg" class="img-float-right imglarge"></a>
 </section> 
 
 <section>
 	<h1 class="text-center">My Neighborhood</h1>
-	<h2>Midtown Columbus</h2>
-	<p> I moved to Columbus, Georgia, last July. My wife and I decided to live in Midtown because it is has a lot of parks and outdoor spaces, and is close to downtown Columbus. Walking through Midtown is like going on a tour of Columbus's history: tall, old trees are peppered throughout Midtown's many parks, and many of the neighborhoods are filled with buildings that have been here since the turn of the twentieth century. Other than the <a href="https://www.youtube.com/watch?v=mcKSeeoieGs" target="_blank">weekly emergency siren tests</a> from the military base south of Columbus (which are extremely loud and annoying), it's a pretty quiet place to live.</p>
+	<h2 class="text-center">Midtown Columbus</h2>
+	<p> I moved to Columbus, Georgia, last July. I live in Midtown, which has a lot of parks and outdoor spaces. Walking through Midtown is like going on a tour of Columbus's history: tall, old trees are peppered throughout Midtown's many parks, and many of the neighborhoods are filled with buildings that have been here since the turn of the twentieth century. Other than the <a href="https://www.youtube.com/watch?v=mcKSeeoieGs" target="_blank">weekly emergency siren tests</a> from the military base south of Columbus (which are extremely loud and annoying), it's a pretty quiet place to live.</p>
 </section>
 
 <section>
 	<h1 class="text-center">My Favorite Neighborhood Sights</h1>
 	<p>My favorite places all showcase the history and culture of the south. The Columbus Museum has some great exhibits that highlight the diverse histories of this region, from Mississippian chiefdoms that thrived thousands of years ago to BLM protests in Columbus in 2020. The Chattahoochee Riverwalk Trail allows me to enjoy the natural beauty of Georgia (and, across the river, Alabama) while going for a long walk along the river. Finally, Smoke Bourbon & BBQ offers exactly that: delicious smoked meat and a wide selection of bourbon. These are all favorite spots of mine to visit on sunny Saturdays to unwind.</p>
-	<ul>
+	<ul class="no-bullets">
 		<li>
 			<p class="text-center"><a href="https://columbusmuseum.com/welcome.html" target="_blank">The Columbus Museum and Olmsted Gardens</a></p>
 			<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/The_Columbus_Museum_in_Columbus%2C_Georgia.jpg" title="The Columbus Museum and Olmsted Gardens">
+			<hr>
 		</li>
 		<li>
 			<p class="text-center"><a href="https://www.traillink.com/trail/chattahoochee-riverwalk/" target="_blank">Chattahoochee Riverwalk Trail</a></p>
 			<img src="https://www.georgiatrust.org/wp-content/uploads/Columbus-GA-RiverWalk.jpg" title="Chattahoochee Riverwalk Trail">
+			<hr>
 		</li>
 		<li>
 			<p class="text-center"><a href="https://www.smokebourbonandbbq.com/" target="_blank">Smoke Bourbon & BBQ</a></p>
